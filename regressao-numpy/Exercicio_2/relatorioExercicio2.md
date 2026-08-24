@@ -1,0 +1,6 @@
+## Tarefa 6 - **Interpretação do RMSE**
+O RMSE está na mesma unidade da variável alvo (mpg). Um RMSE de, por exemplo, 3.5 significa que, em média, a previsão do modelo erra cerca de 3.5 milhas por galão para cima ou para baixo em relação ao valor real. É uma medida direta e interpretável de "quão longe" o modelo costuma errar, diferente do MSe que fica em unidades ao quadrado (mpg²) e não tem leitura direta.
+
+## Tarefa 7 - **O que muda sem padronização?**
+O esperado é que **MSE** e **RMSE** **fiquem praticamente iguais** com ou sem padronização - porque a equação normal encontra a solução ótima (mínimos quadrados) independente da escala das features, então as previsões finais são as mesmas. O que muda são **os pesos**(`w`): sem padronização, cada pessoa passa a refletir a unidade original da feature (ex: `weight` em kg tende a um peso bem pequeno, porque a variação em kg é grande; `acceleration` em segundos tende a um peso bem maior, porque a escala é pequena). Isso torna os pesos **difíceis de comparar entre si** -- não dá para dizer qual feature "importa mais" só olhando o valor bruto do peso, porque cada um está numa escala diferente. É exatamente esse problema que a padronização resolve: coloca todas as features na mesma escala (z-score), tornando os pesos comparáveis diretamente.
+
