@@ -3,7 +3,7 @@ import torch
 from sklearn.linear_model import LinearRegression
 
 from data.tratamento_dados_data_set import carregar_dados
-from Exercicio_1.exercicio1 import (
+from Exercicio_1.exercicio_1 import (
     dividir_treino_teste,
     padronizar,
     adicionar_intercepto,
