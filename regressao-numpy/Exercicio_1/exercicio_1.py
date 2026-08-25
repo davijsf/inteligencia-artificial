@@ -88,7 +88,7 @@ def main():
 
     # 7. Interpretação dos pesos
     feature_names = ["intercepto", "cylinders", "displacement",
-                     "horsepower", "weight", "acceleration"]
+                     "horsepower", "weight", "acceleration", "model_year"]
 
     for name, peso in zip(feature_names, w):
         print(f"{name:.12s}: {peso:.3f}")
