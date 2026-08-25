@@ -1,6 +1,6 @@
 # Trabalhos — Inteligência Artificial
 
-Repositório destinado às minhas atividades, exercícios e projetos desenvolvidos durante os estudos de **Inteligência Artificial**, utilizando principalmente `**Python**`.
+Repositório destinado às minhas atividades, exercícios e projetos desenvolvidos durante os estudos de **Inteligência Artificial**, utilizando principalmente `Python`.
 
 ### Conteúdos abordados
 
